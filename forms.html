@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+        <fieldset style="background-color: aqua;">
+        <center><font color="blue"><h2 >TELANGANA STATE ROAD TRANSPORT CORPORATION</h2></font>
+        <h3>GENERAL BUS PASS APPLICATION</h3></center></fieldset>
+    </head>
+    <body>
+        <form>
+        <fieldset><legend>Application Details</legend> 
+        <table>
+                <tr>
+                    <td>Name *</td>
+                    <td><input type="text" maxlength="20"></td>
+                    <td>Father's / Guardian's Name *</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth *</td>
+                    <td><input type="date"></td>
+                    <td>Gender *</td>
+                    <td>
+                        <input type="radio" name="gender"> Female
+                        <input type="radio" name="gender"> Male
+                    </td>
+                </tr>
+                <tr>
+                    <td>Age As On</td>
+                    <td colspan="3">
+                        <input type="text" placeholder="Year(s)" size="5">
+                        <input type="text" placeholder="Month(s)" size="5">
+                        <input type="text" placeholder="Day(s)" size="5">
+                    </td>
+                </tr>
+                <tr>
+                    <td>WhatsApp No</td>
+                    <td><input type="text"></td>
+                    <td>Aadhaar No *</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>E-mail Id *</td>
+                    <td><input type="email"></td>
+                    <td>Photo</td>
+                    <td><input type="file"></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Residential Address Details</legend>
+            <table>
+                <tr>
+                    <td>Applicant's Address *</td>
+                    <td><input type="text" maxlength="20"></td>
+                    <td>District *</td>
+                    <td><input type="text" value="HYDERABAD"></td>
+                </tr>
+                <tr>
+                    <td>Mandal *</td>
+                    <td><input type="text" value="HYDERABAD"></td>
+                    <td>Village *</td>
+                    <td><input type="text" value="HYDERABAD"></td>
+                </tr>
+                <tr>
+                    <td>Pincode *</td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Pass Type Details</legend>
+            <table>
+                <tr>
+                    <td>City *</td>
+                    <td>
+                        <select>
+                            <option>Hyderabad</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pass Type *</td>
+                    <td>
+                        <select>
+                            <option>----Select----</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Mode of Payment & Pass Collection</legend>
+            <table>
+                <tr>
+                    <td>Payment Mode *</td>
+                    <td>
+                        <select>
+                            <option>Select Payment Mode</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pass Delivery Mode *</td>
+                    <td>
+                        <select>
+                            <option>Select Pass Delivery Mode</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Center to Collect Pass *</td>
+                    <td>
+                        <select>
+                            <option>--Select--</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br>
+
+        <table>
+            <tr>
+                <td><b>Captcha:</b></td>
+                <td><b>OwEeFU</b></td>
+            </tr>
+            <tr>
+                <td>Enter Captcha:</td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+
+        <br>
+        <center><input type="submit" value="Submit"></center>
+
+    </form>
+
+</body>
+</html>
