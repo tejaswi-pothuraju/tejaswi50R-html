@@ -1,0 +1,283 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+  background-color: rgb(232, 227, 227);
+}
+/*NAV BAR*/
+.nav-bar{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 100px;  
+}
+a:hover{
+    background-color: lightgray;
+    color: black;
+}
+/*IMAGE*/
+.bg-container{
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url("https://www.w3schools.com/w3images/coffeehouse.jpg");
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-container1 p{
+    color: white;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 1.5;
+    text-align: center;
+    display: inline-block;
+}
+.bold{
+    color: white;
+    background-color: black;
+    padding: 3px;
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+}
+.nrl{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+}
+.about-container{
+    margin: auto;
+    width: 1200px;
+    text-align: center;
+    padding-top: 40px;
+}
+.span-container{
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    font-family: "Segoe UI", Arial, sans-serif ;
+    font-weight: 400;
+    letter-spacing: 5px;   
+}
+.p1-container{
+    width: 50%;
+    text-align:justify;
+    margin: auto;
+    font-family:"Inconsolata", sans-serif ;
+    line-height: 24px;
+    font-size: 20px;
+}
+.p2-container{
+    width: 50%;
+    background-color: lightgray;
+    margin: auto;
+    line-height: 24px;
+    text-align: justify;
+    font-size: 20px;
+    padding-left: 10px;
+    border-left: 5px solid gray;
+}
+.txt1{
+    width: 50%;
+    background-color: lightgray;
+    margin: auto;
+    line-height: 24px;
+    text-align: justify;
+    font-size: 20px;
+}
+.img-container{
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+.img-container img{
+    width: 100%;
+    height: auto;   
+}
+.txt-2{
+    width: 50%;
+    text-align: start;
+    margin: auto;
+}
+.menu-container{
+    margin: auto;
+    width: 1200px;
+    text-align: center;
+    padding-top: 40px;
+}
+.span-container1{
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    font-family: "Segoe UI", Arial, sans-serif ;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+.food-container{
+    width: 50%;
+    margin:auto;
+}
+.radio{
+    width: 100%;
+    padding: 5px 100px;
+    margin: 20px 0px;
+    color: black;
+    box-shadow: 5px 5px 10px rgb(145, 141, 141);
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+}
+label{
+    padding: 5px 100px;
+    font-weight: 400;
+}
+label:hover{
+    background-color: rgb(115, 111, 111);
+    color: white;
+}
+.food-container{
+    display: block;
+     box-shadow: 5px 5px 10px rgb(145, 141, 141);
+}
+.food{
+    width: 100%;
+    display: none;
+    margin: auto;
+    text-align: left;
+   
+   
+}
+#Eat,#Drink{
+    display: none;
+}
+#Eat:checked~ .eat-container{
+    display: inline-block;
+}
+#Drink:checked~ .drink-container{
+    display: inline-block;
+}
+.eat-container{
+    text-align: start;
+    line-height: 3;
+     padding-left: 10px;
+}
+.drink-container{
+    text-align: start;
+    line-height: 3;
+     padding-left: 10px;
+}
+.img-container-1{
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+.img-container-1 img{
+    width: 100%;
+    height: auto;
+}
+.where-container{
+    margin: auto;
+    width: 1200px;
+    text-align: center;
+    padding-top: 40px;
+}
+.span-container2{
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    font-family: "Segoe UI", Arial, sans-serif ;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+.p-tag {
+    width: 50%;
+    margin: auto;
+    text-align: start;
+}
+.img-container-2{
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+.img-container-2 img{
+    width: 100%;
+    height: auto;
+}
+.p-tag1{
+    width: 50%;
+    margin: auto;
+    text-align: start;
+    line-height: 1.5;
+}
+.p1bold{
+    background-color: black;
+    color: white;
+}
+.form-container {
+      max-width: 600px;
+      margin: auto;
+    }
+
+.form-container p {
+      font-size: 18px;
+      margin-bottom: 30px;
+}
+
+.form-container p strong {
+      font-weight: bold;
+}
+
+.form-input {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+      font-family: monospace;
+}
+
+.form-input::placeholder {
+      color: #888;
+}
+
+.form-button {
+      background-color: black;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      font-family: monospace;
+      text-transform: uppercase;
+}
+
+.form-button:hover {
+      opacity: 0.9;
+}
